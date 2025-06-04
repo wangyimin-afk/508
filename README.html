@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather/style.css">
+</head>
+<body>
+    <h1>Weather App</h1>
+    <p>This repository contains a simple weather search interface located in the <code>weather/</code> directory.</p>
+    <h2>How to Run</h2>
+    <ol>
+        <li>Navigate to the <code>weather</code> folder.</li>
+        <li>Open <code>index.html</code> in your browser.</li>
+    </ol>
+    <pre>open weather/index.html</pre>
+    <p>The page allows you to search for the current weather of a city using the OpenWeatherMap API.</p>
+    <h2>API Key Configuration</h2>
+    <p>The application requires an API key from <a href="https://openweathermap.org/api">OpenWeatherMap</a>. You can supply the key by defining a global JavaScript variable before loading <code>app.js</code> or by replacing the placeholder in <code>weather/app.js</code>.</p>
+    <p>Example using a script tag in <code>index.html</code>:</p>
+    <pre>&lt;script&gt;
+  window.WEATHER_API_KEY = 'YOUR_ACTUAL_API_KEY';
+&lt;/script&gt;
+&lt;script src="app.js"&gt;&lt;/script&gt;</pre>
+    <p>Alternatively, edit <code>weather/app.js</code> and replace <code>YOUR_API_KEY_HERE</code> with your key.</p>
+    <h2>Screenshot</h2>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAC0lEQVR4nGMAAQAABQABDQottAAAAABJRU5ErkJggg==" alt="Screenshot">
+</body>
+</html>
