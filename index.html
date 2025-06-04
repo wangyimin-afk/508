@@ -10,6 +10,15 @@
     <div id="floor-display">当前楼层: <span id="floor">1</span></div>
     <div id="weather-display">天气: <span id="weather">加载中...</span></div>
   </div>
+
+  <div id="face-recognition">
+    <div class="video-wrapper">
+      <video id="video" width="320" height="240" autoplay playsinline></video>
+      <canvas id="overlay" width="320" height="240"></canvas>
+    </div>
+    <button id="start-button">开启人脸识别</button>
+    <div id="face-status">等待启动</div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
